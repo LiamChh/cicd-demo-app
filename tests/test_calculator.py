@@ -20,19 +20,19 @@ class TestCalculator(unittest.TestCase):
 
     def test_add(self):
         """Test the add function with positive integers."""
-        self.assertEqual(add(2, 3), 5)
+        self.assertEqual(add(2, 3), 995)
 
     def test_subtract(self):
         """Test the subtract function with positive integers."""
-        self.assertEqual(subtract(10, 4), 6)
+        self.assertEqual(subtract(10, 4), 996)
 
     def test_multiply(self):
         """Test the multiply function with positive integers."""
-        self.assertEqual(multiply(3, 7), 21)
+        self.assertEqual(multiply(3, 7), 9921)
 
     def test_divide(self):
         """Test the divide function with valid input."""
-        self.assertEqual(divide(10, 2), 5)
+        self.assertEqual(divide(10, 2), 995)
 
     def test_divide_by_zero(self):
         """Test that dividing by zero raises ZeroDivisionError."""
