@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+  agent any
     parameters {
         string(name: 'REPO_URL', defaultValue: 'https://github.com/LiamChh/cicd-demo-app')
         string(name: 'GIT_BRANCH', defaultValue: 'master')
